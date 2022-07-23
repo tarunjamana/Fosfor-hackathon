@@ -9,11 +9,11 @@ import Typography from '@mui/material/Typography';
 import {timeSince} from '../../HelperFuncs/timeSinceDate';
 import './singlecomment.scss';
 import Counter from '../Counter/Counter';
-
+import Reply from '../Reply/Reply';
 function SingleComment({comment}) {
   return (
 
-      <Box sx={{ minWidth: 275,maxWidth:520 }}  className="comment" >
+   <Box sx={{ minWidth: 275,maxWidth:520 }}  className="comment" >
       <Card variant="outlined" className="comment-card">
       <CardContent>
         <Stack direction="row" spacing={2}>
@@ -37,8 +37,14 @@ function SingleComment({comment}) {
         </Stack>
     </CardContent>
       </Card>
+      {comment.replies && comment.replies.map(reply => {
+        return (
+          <Reply  reply={reply}/>
+        )
+      })}
       </Box>
-  
+
+     
   )
 }
 

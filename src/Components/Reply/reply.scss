@@ -1,0 +1,35 @@
+@import '../../Global/variables.scss';
+.reply{
+    margin-left: auto !important;
+    &-card{
+        margin-bottom: 8px;
+        background-color: $color-bg-primary;
+    }
+    &-username{
+     font-size: 14px !important;
+     color:$color-primary;
+    }
+
+    &-reply-btn{
+        flex: 1;
+        justify-self: flex-end;
+        padding: 0 !important;
+        justify-content: flex-end !important;
+        margin-left: 0 !important;
+        text-transform: none !important;
+    }
+
+    &-stack{
+    margin-bottom: 9px;
+    }
+
+    &-createdAt{
+      font-size: 12px !important;
+      color: $color-secondary;
+    }
+
+    &-body{
+        font-size: 12px !important;
+        color: $color-secondary;
+    }
+}
