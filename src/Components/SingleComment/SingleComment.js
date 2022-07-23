@@ -17,7 +17,7 @@ function SingleComment({comment}) {
       <Card variant="outlined" className="comment-card">
       <CardContent>
         <Stack direction="row" spacing={2}>
-        <Counter votes={comment.votes} />
+        <Counter votes={comment.votes} userId={comment.userId} />
         <Stack direction="column">
         <Stack direction="row" spacing={2} className="comment-stack">
         <Typography variant="h5" className="comment-username" component="div">

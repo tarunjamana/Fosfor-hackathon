@@ -38,6 +38,13 @@
                 "userName":"Tarun Jamana",
                 "votes":"16",
                 "createdAt":"3 days ago"
+            },
+            {
+                "id":"3",
+                "body":"Proin finibus faucibus ipsum, et fringilla enim tristique sed.",
+                "userName":"Jhon Doe",
+                "votes":"11",
+                "createdAt":"1 week ago"
             }
         ]
     }
