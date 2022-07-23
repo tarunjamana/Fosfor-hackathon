@@ -1,14 +1,23 @@
 @import '../../Global/variables.scss';
 .counter{
-    &-plus{
-
+    &-cta{
+      padding: 0 !important;
+      min-width: unset !important;
+      max-width: 28px;
+      color: $color-border !important;
+      border: 1px solid $color-border !important;
+      span{
+        margin:0 !important;
+      }
     }
 
     &-text{
-        
+        border-left: 1px solid $color-border;
+        border-right: 1px solid $color-border;
+        padding: 0 !important;
+        font-size: 12px !important;
+        color: $color-tertiary;
+        text-align: center;
     }
 
-    &-minus{
-
-    }
 }
