@@ -6,6 +6,7 @@ import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import ReplyIcon from '@mui/icons-material/Reply';
 import Typography from '@mui/material/Typography';
+import {timeSince} from '../../HelperFuncs/timeSinceDate';
 import './singlecomment.scss';
 import Counter from '../Counter/Counter';
 
@@ -23,7 +24,7 @@ function SingleComment({comment}) {
         {comment.userName}
       </Typography>
       <Typography  color="text.secondary" className="comment-createdAt">
-        {comment.createdAt}
+        {timeSince(comment.createdAt)}
       </Typography>
       <Button size="small" className="comment-reply-btn" startIcon={<ReplyIcon/>}>
         Reply

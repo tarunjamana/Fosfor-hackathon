@@ -3,7 +3,7 @@ import {CommentState} from '../Context/Context';
 import SingleComment from './SingleComment/SingleComment';
 
 function Comments() {
-    const { commentsState,commentsDispatch} = CommentState();
+    const { commentsState} = CommentState();
     console.log(commentsState);
   return (
     <div>

@@ -4,6 +4,7 @@
         "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus, felis at scelerisque consequat, libero purus lobortis mi, sit amet suscipit neque diam ac turpis.",
         "userName":"Tarun Jamana",
         "votes":"22",
+        "userId":"1",
         "createdAt":"2 months ago",
         "replies":[]
     },
@@ -12,6 +13,7 @@
         "body":"Ut maximus convallis sagittis. Duis at urna facilisis, hendrerit quam quis, faucibus libero. Phasellus placerat interdum laoreet.",
         "userName":"Jhon Doe",
         "votes":"10",
+        "userId":"2",
         "createdAt":"1 months ago",
         "replies":[]
     },
@@ -20,6 +22,7 @@
         "body":" Donec pharetra diam eget enim gravida fermentum. Pellentesque condimentum auctor nisl. Etiam non feugiat magna, ac aliquam eros.",
         "userName":"Morbius Smith",
         "votes":"13",
+        "userId":"3",
         "createdAt":"1 months ago",
         "replies":[
             {        

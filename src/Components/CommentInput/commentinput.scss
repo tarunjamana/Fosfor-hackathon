@@ -1,0 +1,14 @@
+@import '../../Global/variables.scss';
+
+.comment-input{
+    &-text{
+        background-color: $color-border;
+        input{
+            font-size: 12px;
+        }
+    }
+    
+    &-btn{
+      text-transform: none !important;
+    }
+}
