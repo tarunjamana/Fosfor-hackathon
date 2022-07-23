@@ -4,7 +4,6 @@ import SingleComment from './SingleComment/SingleComment';
 
 function Comments() {
     const {commentsState} = CommentState();
-    console.log(commentsState);
   return (
     <div>
         {commentsState.map(comment =>{

@@ -7,12 +7,9 @@ import Typography from "@mui/material/Typography";
 import "./counter.scss";
 import { CommentState } from "../../Context/Context";
 
-function Counter({ votes, id }) {
+function Counter({ votes, userId }) {
   const {commentsState, commentsDispatch } = CommentState();
-   
-  
-  console.log(commentsState.forEach(comment => console.log(comment)));
-
+  console.log(commentsState);
   return (
     <ButtonGroup
       orientation="vertical"
@@ -25,7 +22,7 @@ function Counter({ votes, id }) {
         className="counter-cta"
         onClick={() => commentsDispatch({
           type:'UP_VOTE_COMMENT',
-          payload:id
+          payload:userId
         })}
       />
       <Typography className="counter-text">{votes}</Typography>
@@ -35,7 +32,7 @@ function Counter({ votes, id }) {
         className="counter-cta"
         onClick={() => commentsDispatch({
           type:'DOWN_VOTE_COMMENT',
-          payload:id
+          payload:userId
         })}
       />
     </ButtonGroup>
