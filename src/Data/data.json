@@ -1,0 +1,42 @@
+[
+    {
+        "id":"1",
+        "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus, felis at scelerisque consequat, libero purus lobortis mi, sit amet suscipit neque diam ac turpis.",
+        "userName":"Tarun Jamana",
+        "votes":"22",
+        "createdAt":"2 months ago",
+        "replies":[]
+    },
+    {
+        "id":"2",
+        "body":"Ut maximus convallis sagittis. Duis at urna facilisis, hendrerit quam quis, faucibus libero. Phasellus placerat interdum laoreet.",
+        "userName":"Jhon Doe",
+        "votes":"10",
+        "createdAt":"1 months ago",
+        "replies":[]
+    },
+    {
+        "id":"4",
+        "body":" Donec pharetra diam eget enim gravida fermentum. Pellentesque condimentum auctor nisl. Etiam non feugiat magna, ac aliquam eros.",
+        "userName":"Morbius Smith",
+        "votes":"13",
+        "createdAt":"1 months ago",
+        "replies":[
+            {        
+            "id":"1",
+            "body":"Proin finibus faucibus ipsum, et fringilla enim tristique sed. Cras sit amet volutpat lectus. Aliquam ac justo ut neque semper tincidunt.",
+            "userName":"Jhon Doe",
+            "votes":"18",
+            "createdAt":"1 week ago"
+            },
+            {        
+                "id":"2",
+                "body":"Quisque vel augue at justo lacinia sodales ultrices eget sapien. Sed at elementum lorem, eget iaculis metus. Nulla non libero sit amet nibh volutpat mollis id in arcu",
+                "userName":"Tarun Jamana",
+                "votes":"16",
+                "createdAt":"3 days ago"
+            }
+        ]
+    }
+
+]
